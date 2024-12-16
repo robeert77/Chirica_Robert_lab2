@@ -17,5 +17,6 @@ namespace Chirica_Robert_lab2.Data
         public DbSet<Chirica_Robert_lab2.Models.Book> Book { get; set; } = default!;
         public DbSet<Chirica_Robert_lab2.Models.Publisher> Publisher { get; set; } = default!;
         public DbSet<Chirica_Robert_lab2.Models.Author> Author { get; set; } = default!;
+        public DbSet<Chirica_Robert_lab2.Models.Category> Category { get; set; } = default!;
     }
 }
